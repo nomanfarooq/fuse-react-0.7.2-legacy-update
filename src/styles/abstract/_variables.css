@@ -1,0 +1,31 @@
+:root {
+	--bgColorLightAlpha: #F1F2F5;
+	--bgColorLightBeta: #F3F4F7;
+
+	--bgColorLightFA: #FAFAFA;
+	--bgColorLightFC: #FCFCFC;
+
+	--colorPrimaryAlpha: #FCDFDF;
+	--colorPrimaryBeta: #FFB2B2;
+	--colorPrimaryGamma: #EB6E6E;
+	--colorPrimaryDelta: #A21F23;
+
+	--colorGreyAlpha: #A6AAB4;
+
+	--colorBlackAlpha: #333;
+
+	--colorBlack: #000;
+	--colorWhite: #FFF;
+
+	/*Box Shadows*/
+	--box-shadow-primary: 0px 0px 15px 1px rgba(0, 0, 0, 0.03);
+	--box-shadow-secondary: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+
+	/*Border radius*/
+	--border-radius-5: 5px;
+	--border-radius-10: 10px;
+	--border-radius-15: 15px;
+	--border-radius-20: 20px;
+
+	--border-radius-36: 36px;
+}
