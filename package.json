@@ -1,6 +1,6 @@
 {
   "name": "tenant-dashboard",
-  "version": "0.7.2",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@azure/msal-browser": "^3.28.0",
