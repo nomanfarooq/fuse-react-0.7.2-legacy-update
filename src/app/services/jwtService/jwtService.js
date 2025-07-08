@@ -23,7 +23,6 @@ class JwtService extends FuseUtils.EventEmitter {
         this.setInterceptors();
         this.handleAuthentication();
     }
-
     setTimeZone = () => {
         const date = new Date();
         const offset = date.getTimezoneOffset();
@@ -369,7 +368,7 @@ class JwtService extends FuseUtils.EventEmitter {
         return this.getUserData()
     }
 
-    /*todo:This will be removed when data will came from api*/
+    /*todo:This will be removed when data fetched from api*/
     /*createStaticData = (userData) => {
         const role = JSON.parse(window.localStorage.getItem("role"));
         const roleData = roleSettingsConfig.find(item => item.role === role);
