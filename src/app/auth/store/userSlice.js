@@ -75,7 +75,7 @@ export const createUserSettingsFirebase = (authUser) => async (dispatch, getStat
 };
 
 export const setUserData = (user) => async (dispatch, getState) => {
-  console.log(user, '==== set Userrr data ====');
+  //console.log(user, '==== set Userrr data ====');
   /*
         You can redirect the logged-in user to a specific route depending on his role
          */
